@@ -4,8 +4,9 @@
     "version": "1.0.0",
     "content_scripts": [
         {
-            "matches": ["google.com"],
+            "matches": ["google.com"], 
             "js": ["Content.js"] 
-        }
+        },
+        {"_comment": "This is a comment" }
     ]
 }
